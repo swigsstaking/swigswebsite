@@ -137,47 +137,32 @@ const Home = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <a 
-              href="https://swigs.ch/fr/Armis-Pro/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all border-2 border-transparent hover:border-indigo-200"
-            >
+            <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-slate-200">
               <h3 className="text-2xl font-semibold text-slate-900 mb-3">
                 ARMISPRO
               </h3>
               <p className="text-slate-600">
                 Logiciel de gestion d'armurerie conforme à la réglementation suisse
               </p>
-            </a>
+            </div>
 
-            <a 
-              href="https://swigs.ch/fr/Uniswigs" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all border-2 border-transparent hover:border-indigo-200"
-            >
+            <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-slate-200">
               <h3 className="text-2xl font-semibold text-slate-900 mb-3">
                 PAPERSAFE
               </h3>
               <p className="text-slate-600">
                 Solution NFT smartcontract pour la certification numérique
               </p>
-            </a>
+            </div>
 
-            <a 
-              href="https://swigs.ch/fr/Elrond-Swigs-Staking" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all border-2 border-transparent hover:border-indigo-200"
-            >
+            <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-slate-200">
               <h3 className="text-2xl font-semibold text-slate-900 mb-3">
                 SWIGSTAKING
               </h3>
               <p className="text-slate-600">
                 Solution de staking Elrond pour maximiser vos rendements
               </p>
-            </a>
+            </div>
           </div>
         </div>
       </section>
