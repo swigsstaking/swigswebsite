@@ -25,12 +25,13 @@ const Layout = ({ children }) => {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
-            <Link to="/" className="flex items-center group">
+            <Link to="/" className="flex items-center gap-2 group">
               <img 
-                src="https://swigs.online/uploads/swigswebsite/1768372227058-997235407.png"
-                alt="SWIGS S.A"
-                className="h-20"
+                src="https://swigs.online/uploads/swigswebsite/1768372103911-751439005.svg"
+                alt="SWIGS Logo"
+                className="h-7 w-7"
               />
+              <span className="text-2xl font-semibold text-slate-900 tracking-tight">SWIGS</span>
             </Link>
 
             {/* Desktop Navigation */}
