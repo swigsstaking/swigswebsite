@@ -1,4 +1,4 @@
-import { Mail, MapPin, Send } from 'lucide-react'
+import { Mail, MapPin, Linkedin } from 'lucide-react'
 import SEOHead from '../components/SEOHead'
 
 const Contact = () => {
@@ -9,86 +9,105 @@ const Contact = () => {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-12">
+          <h1 className="text-5xl md:text-6xl font-semibold text-slate-900 mb-6 tracking-tight">
             Nous contacter
           </h1>
+          <p className="text-xl text-slate-600">
+            Une question ? Un projet ? N'hésitez pas à nous contacter
+          </p>
         </div>
       </section>
 
       {/* Contact Info */}
       <section className="pb-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-slate-50 rounded-lg p-8 md:p-12">
-            <div className="space-y-8">
-              {/* Company Name */}
-              <div>
-                <h2 className="text-3xl font-bold text-slate-900 mb-6">
-                  SWIGS SA
-                </h2>
-              </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Coordonnées */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200">
+              <h2 className="text-2xl font-semibold text-slate-900 mb-6">
+                SWIGS S.A.
+              </h2>
+              
+              <div className="space-y-6">
+                {/* Address */}
+                <div className="flex items-start">
+                  <div className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0" style={{backgroundColor: '#EEF2FF'}}>
+                    <MapPin className="w-6 h-6" style={{color: '#6366F1'}} />
+                  </div>
+                  <div className="ml-4">
+                    <h3 className="font-semibold text-slate-900 mb-1">Adresse</h3>
+                    <p className="text-slate-600">
+                      Route de la drague 18<br />
+                      CH-1950 Sion
+                    </p>
+                  </div>
+                </div>
 
-              {/* Address */}
-              <div className="flex items-start">
-                <MapPin className="w-6 h-6 text-red-600 mr-4 flex-shrink-0 mt-1" />
-                <div>
-                  <p className="text-lg text-slate-700">
-                    Route de la drague 18<br />
-                    CH-1950 Sion
-                  </p>
+                {/* Email */}
+                <div className="flex items-start">
+                  <div className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0" style={{backgroundColor: '#EEF2FF'}}>
+                    <Mail className="w-6 h-6" style={{color: '#6366F1'}} />
+                  </div>
+                  <div className="ml-4">
+                    <h3 className="font-semibold text-slate-900 mb-1">Email</h3>
+                    <a 
+                      href="mailto:info@swigs.ch"
+                      className="transition-colors"
+                      style={{color: '#6366F1'}}
+                      onMouseEnter={(e) => e.currentTarget.style.color = '#4F46E5'}
+                      onMouseLeave={(e) => e.currentTarget.style.color = '#6366F1'}
+                    >
+                      info@swigs.ch
+                    </a>
+                  </div>
+                </div>
+
+                {/* LinkedIn */}
+                <div className="flex items-start">
+                  <div className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0" style={{backgroundColor: '#EEF2FF'}}>
+                    <Linkedin className="w-6 h-6" style={{color: '#6366F1'}} />
+                  </div>
+                  <div className="ml-4">
+                    <h3 className="font-semibold text-slate-900 mb-1">LinkedIn</h3>
+                    <a 
+                      href="https://www.linkedin.com/company/91683835/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition-colors"
+                      style={{color: '#6366F1'}}
+                      onMouseEnter={(e) => e.currentTarget.style.color = '#4F46E5'}
+                      onMouseLeave={(e) => e.currentTarget.style.color = '#6366F1'}
+                    >
+                      Suivez notre actualité
+                    </a>
+                  </div>
                 </div>
               </div>
+            </div>
 
-              {/* Email */}
-              <div className="flex items-start">
-                <Mail className="w-6 h-6 text-red-600 mr-4 flex-shrink-0 mt-1" />
-                <div>
-                  <a 
-                    href="mailto:info@swigs.ch"
-                    className="text-lg text-red-600 hover:text-red-700 underline"
-                  >
-                    info@swigs.ch
-                  </a>
-                </div>
-              </div>
-
-              {/* Telegram */}
-              <div className="flex items-start">
-                <Send className="w-6 h-6 text-red-600 mr-4 flex-shrink-0 mt-1" />
-                <div>
-                  <p className="text-slate-700 mb-2">Actualité:</p>
-                  <a 
-                    href="https://t.me/swigs"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-lg text-red-600 hover:text-red-700 underline"
-                  >
-                    SWIGS info
-                  </a>
-                </div>
-              </div>
+            {/* CTA ERP */}
+            <div className="rounded-2xl p-8 text-white" style={{background: 'linear-gradient(to bottom right, #6366F1, #4F46E5)'}}>
+              <h2 className="text-2xl font-semibold mb-4">
+                Intéressé par notre ERP ?
+              </h2>
+              <p className="text-white/90 mb-6">
+                Contactez-nous pour une démonstration personnalisée de SWIGS ERP et découvrez comment nous pouvons optimiser la gestion de votre commerce.
+              </p>
+              <a 
+                href="mailto:info@swigs.ch?subject=Demande d'information SWIGS ERP"
+                className="inline-flex items-center justify-center px-6 py-3 bg-white rounded-full font-semibold transition-colors"
+                style={{color: '#6366F1'}}
+                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#F5F3FF'}
+                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'white'}
+              >
+                <Mail className="w-5 h-5 mr-2" />
+                Demander une démo
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CTA vers ERP */}
-      <section className="py-20 px-4 bg-red-50">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-slate-900 mb-4">
-            Intéressé par notre solution ERP ?
-          </h2>
-          <p className="text-lg text-slate-600 mb-8">
-            Contactez-nous pour une démonstration personnalisée
-          </p>
-          <a 
-            href="mailto:info@swigs.ch?subject=Demande d'information SWIGS ERP"
-            className="inline-flex items-center justify-center px-8 py-4 bg-red-600 text-white rounded-lg font-semibold hover:bg-red-700 transition-colors shadow-lg"
-          >
-            <Mail className="w-5 h-5 mr-2" />
-            Nous écrire
-          </a>
-        </div>
-      </section>
     </div>
   )
 }

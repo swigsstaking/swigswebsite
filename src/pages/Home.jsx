@@ -11,7 +11,7 @@ const Home = () => {
       <section className="pt-32 pb-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-semibold text-slate-900 mb-6 tracking-tight">
-            SWIGS S.A
+            SWIGS S.A.
           </h1>
           <p className="text-2xl md:text-3xl font-light text-slate-600 mb-4">
             Solutions technologiques suisses
