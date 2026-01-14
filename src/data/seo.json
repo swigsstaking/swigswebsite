@@ -1,0 +1,74 @@
+{
+  "site": {
+    "name": "SWIGS",
+    "slug": "swigswebsite",
+    "domain": "swigs.ch",
+    "description": "SWIGS SA - Solutions technologiques sécurisées pour PME suisses. CMS, E-commerce et ERP."
+  },
+  "pages": {
+    "home": {
+      "title": "SWIGS - Solutions Technologiques Suisses | CMS, E-commerce, ERP",
+      "description": "SWIGS SA, entreprise suisse pionnière en solutions technologiques. CMS, E-commerce et ERP sécurisés pour PME. Hébergement Suisse, blockchain et innovation.",
+      "keywords": "SWIGS, solutions technologiques, CMS, E-commerce, ERP, Suisse, blockchain, sécurité",
+      "ogTitle": "SWIGS - Excellence Technologique Suisse",
+      "ogDescription": "Solutions sécurisées pour PME suisses. CMS, E-commerce et ERP dans une plateforme moderne.",
+      "ogImage": null,
+      "twitterCard": "summary_large_image",
+      "canonical": null,
+      "robots": "index,follow"
+    },
+    "fonctionnalites": {
+      "title": "Fonctionnalités | SWIGS Solutions",
+      "description": "Découvrez toutes les fonctionnalités SWIGS : Dashboard, E-commerce, Inventaire, POS, Services, Médias. Solutions complètes pour votre entreprise.",
+      "keywords": "fonctionnalités, CMS, E-commerce, ERP, inventaire, POS, SWIGS",
+      "ogTitle": "Fonctionnalités SWIGS",
+      "ogDescription": "Modules complets pour gérer votre entreprise",
+      "ogImage": null,
+      "twitterCard": "summary_large_image",
+      "canonical": null,
+      "robots": "index,follow"
+    },
+    "tarifs": {
+      "title": "Tarifs | SWIGS Solutions",
+      "description": "Tarifs transparents SWIGS : Site Vitrine dès 29 CHF, E-commerce dès 79 CHF, ERP Complet dès 149 CHF. Sans engagement.",
+      "keywords": "tarifs, prix, SWIGS, CMS, E-commerce, ERP, Suisse",
+      "ogTitle": "Tarifs SWIGS",
+      "ogDescription": "Solutions adaptées à tous les budgets",
+      "ogImage": null,
+      "twitterCard": "summary_large_image",
+      "canonical": null,
+      "robots": "index,follow"
+    },
+    "a-propos": {
+      "title": "À propos | SWIGS SA",
+      "description": "SWIGS SA, entreprise suisse pionnière dans les nouvelles technologies. Innovation, fiabilité et excellence technologique depuis la Suisse.",
+      "keywords": "SWIGS, entreprise suisse, technologie, blockchain, innovation",
+      "ogTitle": "À propos de SWIGS",
+      "ogDescription": "Excellence technologique suisse",
+      "ogImage": null,
+      "twitterCard": "summary_large_image",
+      "canonical": null,
+      "robots": "index,follow"
+    },
+    "contact": {
+      "title": "Contact | SWIGS SA",
+      "description": "Contactez SWIGS SA. Notre équipe est à votre disposition pour répondre à vos questions sur nos solutions technologiques.",
+      "keywords": "contact, SWIGS, Suisse, solutions technologiques",
+      "ogTitle": "Contactez SWIGS",
+      "ogDescription": "Notre équipe est à votre disposition",
+      "ogImage": null,
+      "twitterCard": "summary_large_image",
+      "canonical": null,
+      "robots": "index,follow"
+    }
+  },
+  "global": {
+    "siteName": "SWIGS",
+    "siteUrl": "https://swigs.online",
+    "logo": null,
+    "favicon": null,
+    "language": "fr",
+    "social": {}
+  },
+  "generatedAt": "2025-01-12T10:00:00.000Z"
+}
