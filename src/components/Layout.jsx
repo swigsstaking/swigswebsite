@@ -10,7 +10,6 @@ const Layout = ({ children }) => {
   const { siteInfo } = useSiteInfo()
 
   const navigation = [
-    { name: 'SWIGS S.A', path: '/swigs-sa' },
     { name: 'ERP', path: '/erp' },
     { name: 'Modules', path: '/modules' },
     { name: 'Nous contacter', path: '/contact' },
@@ -31,7 +30,7 @@ const Layout = ({ children }) => {
                 alt="SWIGS Logo"
                 className="h-7 w-7"
               />
-              <span className="text-2xl font-semibold text-slate-900 tracking-tight">SWIGS</span>
+              <span className="text-xl font-bold text-slate-900" style={{fontFamily: 'system-ui, -apple-system, sans-serif', letterSpacing: '0.02em'}}>SWIGS</span>
             </Link>
 
             {/* Desktop Navigation */}
