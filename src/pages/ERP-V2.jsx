@@ -135,12 +135,12 @@ const ERPV2 = () => {
                 src={erpScreens[currentSlide].image}
                 alt={erpScreens[currentSlide].title}
                 className={`w-full h-full object-contain transition-all duration-500 ${
-                  isHovered ? 'blur-0' : 'blur-sm'
+                  isHovered ? 'blur-0' : 'md:blur-sm'
                 }`}
               />
               
-              {/* Overlay avec texte (visible quand pas hover) */}
-              <div className={`absolute inset-0 backdrop-blur-sm transition-opacity duration-500 flex items-center justify-center ${
+              {/* Overlay avec texte (visible quand pas hover) - caché sur mobile */}
+              <div className={`hidden md:flex absolute inset-0 backdrop-blur-sm transition-opacity duration-500 items-center justify-center ${
                 isHovered ? 'opacity-0 pointer-events-none' : 'opacity-100'
               }`} style={{backgroundColor: 'rgba(99, 102, 241, 0.6)'}}>
                 <div className="text-center px-8">
@@ -154,8 +154,8 @@ const ERPV2 = () => {
               </div>
 
 
-              {/* Click to advance indicator */}
-              <div className={`absolute top-6 right-6 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium transition-opacity duration-300 z-10 ${
+              {/* Click to advance indicator - caché sur mobile */}
+              <div className={`hidden md:block absolute top-6 right-6 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium transition-opacity duration-300 z-10 ${
                 isHovered ? 'opacity-0' : 'opacity-100'
               }`} style={{color: '#6366F1'}}>
                 Cliquer pour avancer →
