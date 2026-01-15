@@ -90,7 +90,12 @@ const ModuleFidelite = () => {
               <span className="text-5xl font-semibold">250</span>
               <span className="text-2xl">CHF</span>
             </div>
-            <p className="text-white/70">Paiement unique - Ajout au forfait ERP de base</p>
+            <p className="text-white/70 mb-3">Paiement unique</p>
+            <div className="flex items-baseline gap-2 mb-2">
+              <span className="text-3xl font-semibold">+ 5</span>
+              <span className="text-xl">CHF/mois</span>
+            </div>
+            <p className="text-white/70">Ajout au forfait ERP de base</p>
           </div>
         </div>
       </section>

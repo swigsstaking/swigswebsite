@@ -264,7 +264,7 @@ const ERPV2 = () => {
 
               <div className="bg-white/10 rounded-2xl p-6 mb-8">
                 <p className="text-center text-white/70 mb-2">
-                  <span className="font-semibold">+ 1'000 CHF</span> pour l'intégration de vos données
+                  <span className="font-semibold">+ 1'500 CHF</span> pour l'intégration de vos données
                 </p>
                 <p className="text-center text-sm text-white/60">
                   (Frais unique lors de la mise en place)

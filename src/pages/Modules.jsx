@@ -12,6 +12,7 @@ const Modules = () => {
       description: 'Gérez votre parc matériel et vos contrats de location en toute simplicité',
       price: '250 CHF',
       priceLabel: 'Paiement unique',
+      monthlyPrice: '10 CHF/mois',
       features: [
         'Gestion du parc matériel',
         'Contrats de location',
@@ -28,6 +29,7 @@ const Modules = () => {
       description: 'Créez et gérez un programme de fidélité pour vos clients',
       price: '250 CHF',
       priceLabel: 'Paiement unique',
+      monthlyPrice: '5 CHF/mois',
       features: [
         'Programme de points',
         'Cartes de fidélité',
@@ -71,8 +73,9 @@ const Modules = () => {
                     <module.icon className="w-8 h-8" style={{color: '#6366F1'}} />
                   </div>
                   <div className="text-right">
-                    <div className="text-4xl font-semibold" style={{color: '#6366F1'}}>{module.price}</div>
-                    <div className="text-slate-600">{module.priceLabel}</div>
+                    <div className="text-3xl font-semibold" style={{color: '#6366F1'}}>{module.price}</div>
+                    <div className="text-sm text-slate-600">{module.priceLabel}</div>
+                    <div className="text-xl font-semibold mt-2" style={{color: '#6366F1'}}>+ {module.monthlyPrice}</div>
                   </div>
                 </div>
 
