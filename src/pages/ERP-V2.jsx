@@ -122,9 +122,10 @@ const ERPV2 = () => {
           </div>
 
           {/* Interactive ERP Carousel */}
-          <div className="relative mx-auto max-w-5xl">
+          <div className="relative mx-auto max-w-7xl">
             <div 
-              className="relative aspect-video rounded-3xl shadow-2xl overflow-hidden cursor-pointer"
+              className="relative rounded-3xl shadow-2xl overflow-hidden cursor-pointer bg-slate-100"
+              style={{aspectRatio: '2940 / 1630'}}
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
               onClick={nextSlide}
@@ -133,7 +134,7 @@ const ERPV2 = () => {
               <img 
                 src={erpScreens[currentSlide].image}
                 alt={erpScreens[currentSlide].title}
-                className={`w-full h-full object-cover transition-all duration-500 ${
+                className={`w-full h-full object-contain transition-all duration-500 ${
                   isHovered ? 'blur-0' : 'blur-sm'
                 }`}
               />
