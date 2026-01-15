@@ -94,7 +94,9 @@ const Contact = () => {
                 Contactez-nous pour une démonstration personnalisée de SWIGS ERP et découvrez comment nous pouvons optimiser la gestion de votre commerce.
               </p>
               <a 
-                href="mailto:info@swigs.ch?subject=Demande d'information SWIGS ERP"
+                href="https://calendar.app.google/miQuqv9sbz2mGErP9"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-3 bg-white rounded-full font-semibold transition-colors"
                 style={{color: '#6366F1'}}
                 onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#F5F3FF'}
