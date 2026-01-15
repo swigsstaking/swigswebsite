@@ -1,74 +1,99 @@
 {
   "site": {
-    "name": "SWIGS",
+    "name": "SWIGS S.A.",
     "slug": "swigswebsite",
     "domain": "swigs.ch",
-    "description": "SWIGS SA - Solutions technologiques sécurisées pour PME suisses. CMS, E-commerce et ERP."
+    "description": "SWIGS S.A. - Solutions technologiques suisses innovantes. ERP de gestion pour commerces, modules de fidélité et location, infrastructure blockchain. Hébergement sécurisé en Suisse."
   },
   "pages": {
     "home": {
-      "title": "SWIGS - Solutions Technologiques Suisses | CMS, E-commerce, ERP",
-      "description": "SWIGS SA, entreprise suisse pionnière en solutions technologiques. CMS, E-commerce et ERP sécurisés pour PME. Hébergement Suisse, blockchain et innovation.",
-      "keywords": "SWIGS, solutions technologiques, CMS, E-commerce, ERP, Suisse, blockchain, sécurité",
-      "ogTitle": "SWIGS - Excellence Technologique Suisse",
-      "ogDescription": "Solutions sécurisées pour PME suisses. CMS, E-commerce et ERP dans une plateforme moderne.",
-      "ogImage": null,
+      "title": "SWIGS S.A. - Solutions Technologiques Suisses | ERP, Modules & Blockchain",
+      "description": "SWIGS S.A., entreprise suisse innovante en solutions technologiques. ERP de gestion pour commerces suisses, modules de fidélité et location, infrastructure blockchain sécurisée. Hébergement en Suisse.",
+      "keywords": "SWIGS, ERP Suisse, logiciel de gestion, point de vente, inventaire, e-commerce, module fidélité, module location, blockchain, solutions technologiques suisses, Sion, Valais",
+      "ogTitle": "SWIGS S.A. - Excellence Technologique Suisse",
+      "ogDescription": "ERP de gestion complet pour commerces suisses. Modules de fidélité, location et solutions blockchain innovantes.",
+      "ogImage": "https://swigs.online/uploads/swigswebsite/1768372227058-997235407.png",
       "twitterCard": "summary_large_image",
-      "canonical": null,
+      "canonical": "https://swigs.ch",
       "robots": "index,follow"
     },
-    "fonctionnalites": {
-      "title": "Fonctionnalités | SWIGS Solutions",
-      "description": "Découvrez toutes les fonctionnalités SWIGS : Dashboard, E-commerce, Inventaire, POS, Services, Médias. Solutions complètes pour votre entreprise.",
-      "keywords": "fonctionnalités, CMS, E-commerce, ERP, inventaire, POS, SWIGS",
-      "ogTitle": "Fonctionnalités SWIGS",
-      "ogDescription": "Modules complets pour gérer votre entreprise",
-      "ogImage": null,
+    "erp": {
+      "title": "SWIGS ERP - Logiciel de Gestion pour Commerces Suisses | 50 CHF/mois",
+      "description": "SWIGS ERP : solution complète de gestion pour commerces suisses. Inventaire centralisé, point de vente (POS), e-commerce, comptabilité. Dès 50 CHF/mois ou 45 CHF/mois en paiement annuel. Essai gratuit disponible.",
+      "keywords": "ERP Suisse, logiciel de gestion, point de vente, POS, inventaire, e-commerce, comptabilité, gestion commerciale, SWIGS, logiciel commerce Suisse",
+      "ogTitle": "SWIGS ERP - Logiciel de Gestion Suisse",
+      "ogDescription": "Solution ERP complète pour commerces suisses. Inventaire, POS, e-commerce et comptabilité dès 50 CHF/mois.",
+      "ogImage": "https://swigs.online/uploads/swigswebsite/1768374084044-527275705.webp",
       "twitterCard": "summary_large_image",
-      "canonical": null,
+      "canonical": "https://swigs.ch/erp",
       "robots": "index,follow"
     },
-    "tarifs": {
-      "title": "Tarifs | SWIGS Solutions",
-      "description": "Tarifs transparents SWIGS : Site Vitrine dès 29 CHF, E-commerce dès 79 CHF, ERP Complet dès 149 CHF. Sans engagement.",
-      "keywords": "tarifs, prix, SWIGS, CMS, E-commerce, ERP, Suisse",
-      "ogTitle": "Tarifs SWIGS",
-      "ogDescription": "Solutions adaptées à tous les budgets",
-      "ogImage": null,
+    "modules": {
+      "title": "Modules SWIGS ERP - Fidélité & Location | 250 CHF + 5-10 CHF/mois",
+      "description": "Modules optionnels pour SWIGS ERP : Module Fidélité (250 CHF + 5 CHF/mois) pour programmes de points et récompenses. Module Location (250 CHF + 10 CHF/mois) pour gestion de parc matériel et contrats.",
+      "keywords": "module fidélité, programme de fidélité, carte de fidélité, module location, gestion location, parc matériel, SWIGS, ERP modules",
+      "ogTitle": "Modules SWIGS ERP - Fidélité & Location",
+      "ogDescription": "Étendez votre ERP avec nos modules spécialisés : Fidélité et Location. Paiement unique + frais mensuels.",
+      "ogImage": "https://swigs.online/uploads/swigswebsite/1768372227058-997235407.png",
       "twitterCard": "summary_large_image",
-      "canonical": null,
+      "canonical": "https://swigs.ch/modules",
       "robots": "index,follow"
     },
-    "a-propos": {
-      "title": "À propos | SWIGS SA",
-      "description": "SWIGS SA, entreprise suisse pionnière dans les nouvelles technologies. Innovation, fiabilité et excellence technologique depuis la Suisse.",
-      "keywords": "SWIGS, entreprise suisse, technologie, blockchain, innovation",
-      "ogTitle": "À propos de SWIGS",
-      "ogDescription": "Excellence technologique suisse",
-      "ogImage": null,
+    "swigs-sa": {
+      "title": "À propos de SWIGS S.A. | Entreprise Technologique Suisse - Sion, Valais",
+      "description": "SWIGS S.A., entreprise suisse basée à Sion (Valais), spécialisée dans les solutions technologiques innovantes. ERP de gestion, blockchain, ARMISPRO, PAPERSAFE et SWIGSTAKING. Excellence et innovation depuis la Suisse.",
+      "keywords": "SWIGS SA, entreprise suisse, Sion, Valais, technologie Suisse, blockchain, innovation, ARMISPRO, PAPERSAFE, SWIGSTAKING",
+      "ogTitle": "SWIGS S.A. - Innovation Technologique Suisse",
+      "ogDescription": "Entreprise suisse innovante basée à Sion. Solutions ERP, blockchain et technologies de pointe.",
+      "ogImage": "https://swigs.online/uploads/swigswebsite/1768372227058-997235407.png",
       "twitterCard": "summary_large_image",
-      "canonical": null,
+      "canonical": "https://swigs.ch/swigs-sa",
       "robots": "index,follow"
     },
     "contact": {
-      "title": "Contact | SWIGS SA",
-      "description": "Contactez SWIGS SA. Notre équipe est à votre disposition pour répondre à vos questions sur nos solutions technologiques.",
-      "keywords": "contact, SWIGS, Suisse, solutions technologiques",
-      "ogTitle": "Contactez SWIGS",
-      "ogDescription": "Notre équipe est à votre disposition",
-      "ogImage": null,
+      "title": "Contact SWIGS S.A. | Sion, Valais - Suisse | Démo ERP Gratuite",
+      "description": "Contactez SWIGS S.A. à Sion (Route de la drague 18, CH-1950). Demandez une démonstration gratuite de notre ERP ou posez vos questions sur nos solutions technologiques. Email : info@swigs.ch",
+      "keywords": "contact SWIGS, Sion, Valais, Suisse, démo ERP, info@swigs.ch, Route de la drague 18",
+      "ogTitle": "Contactez SWIGS S.A. - Sion, Suisse",
+      "ogDescription": "Notre équipe à Sion est à votre disposition. Demandez une démo gratuite de SWIGS ERP.",
+      "ogImage": "https://swigs.online/uploads/swigswebsite/1768372227058-997235407.png",
       "twitterCard": "summary_large_image",
-      "canonical": null,
+      "canonical": "https://swigs.ch/contact",
+      "robots": "index,follow"
+    },
+    "module-fidelite": {
+      "title": "Module Fidélité SWIGS | Programme de Points & Récompenses | 250 CHF + 5 CHF/mois",
+      "description": "Module Fidélité pour SWIGS ERP : créez un programme de points, cartes de fidélité digitales, récompenses personnalisées. Augmentez la fidélisation client. 250 CHF paiement unique + 5 CHF/mois.",
+      "keywords": "module fidélité, programme de fidélité, carte de fidélité digitale, points de fidélité, récompenses clients, fidélisation, SWIGS",
+      "ogTitle": "Module Fidélité SWIGS ERP",
+      "ogDescription": "Programme de fidélité complet pour votre commerce. Cartes digitales, points et récompenses personnalisées.",
+      "ogImage": "https://swigs.online/uploads/swigswebsite/1768372227058-997235407.png",
+      "twitterCard": "summary_large_image",
+      "canonical": "https://swigs.ch/modules/fidelite",
+      "robots": "index,follow"
+    },
+    "module-location": {
+      "title": "Module Location SWIGS | Gestion Parc Matériel & Contrats | 250 CHF + 10 CHF/mois",
+      "description": "Module Location pour SWIGS ERP : gérez votre parc matériel, calendrier de disponibilité, contrats de location et facturation automatique. Idéal pour magasins de sport, location événementiel. 250 CHF + 10 CHF/mois.",
+      "keywords": "module location, gestion location, parc matériel, contrat location, calendrier disponibilité, facturation location, SWIGS",
+      "ogTitle": "Module Location SWIGS ERP",
+      "ogDescription": "Gestion complète de location : parc matériel, calendrier, contrats et facturation automatique.",
+      "ogImage": "https://swigs.online/uploads/swigswebsite/1768372227058-997235407.png",
+      "twitterCard": "summary_large_image",
+      "canonical": "https://swigs.ch/modules/location",
       "robots": "index,follow"
     }
   },
   "global": {
-    "siteName": "SWIGS",
-    "siteUrl": "https://swigs.online",
-    "logo": null,
-    "favicon": null,
+    "siteName": "SWIGS S.A.",
+    "siteUrl": "https://swigs.ch",
+    "logo": "https://swigs.online/uploads/swigswebsite/1768372227058-997235407.png",
+    "favicon": "https://swigs.online/uploads/swigswebsite/1768372103911-751439005.svg",
     "language": "fr",
-    "social": {}
+    "locale": "fr_CH",
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/91683835/"
+    }
   },
   "generatedAt": "2025-01-12T10:00:00.000Z"
 }
