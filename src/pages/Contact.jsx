@@ -91,7 +91,7 @@ const Contact = () => {
                 Intéressé par notre ERP ?
               </h2>
               <p className="text-white/90 mb-6">
-                Contactez-nous pour une démonstration personnalisée de SWIGS ERP et découvrez comment nous pouvons optimiser la gestion de votre commerce.
+                Contactez-nous pour une démonstration personnalisée en visioconférence de SWIGS ERP et découvrez comment nous pouvons optimiser la gestion de votre commerce.
               </p>
               <a 
                 href="https://calendar.app.google/miQuqv9sbz2mGErP9"
