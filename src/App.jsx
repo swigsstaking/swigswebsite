@@ -9,6 +9,7 @@ const ERPV2 = lazy(() => import('./pages/ERP-V2'))
 const Modules = lazy(() => import('./pages/Modules'))
 const ModuleLocation = lazy(() => import('./pages/ModuleLocation'))
 const ModuleFidelite = lazy(() => import('./pages/ModuleFidelite'))
+const InfrastructureV2 = lazy(() => import('./pages/InfrastructureV2'))
 const Contact = lazy(() => import('./pages/Contact'))
 
 // Loading component
@@ -30,6 +31,7 @@ function App() {
             <Route path="/modules" element={<Modules />} />
             <Route path="/modules/location" element={<ModuleLocation />} />
             <Route path="/modules/fidelite" element={<ModuleFidelite />} />
+            <Route path="/infrastructure" element={<InfrastructureV2 />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>

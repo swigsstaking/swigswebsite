@@ -12,6 +12,7 @@ const Layout = ({ children }) => {
   const navigation = [
     { name: 'ERP', path: '/erp' },
     { name: 'Modules', path: '/modules' },
+    { name: 'Infrastructure', path: '/infrastructure' },
     { name: 'Nous contacter', path: '/contact' },
   ]
 
